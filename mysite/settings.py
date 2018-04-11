@@ -125,3 +125,11 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 #Redirect
 
 LOGIN_REDIRECT_URL = '/'
+
+#EMAIL
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'fernandambelem@gmail.com'
+EMAIL_HOST_PASSWORD = 'jmnlcrafdjgojyha'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
